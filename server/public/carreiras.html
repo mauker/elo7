@@ -2,41 +2,29 @@
 <html>
 <head>
 	<title>Carreiras Elo7</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="fonts/fonts.css">
-	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js" type="text/javascript"></script>
 	<link rel="icon" type="image/png" sizes="32x32" href="http://images.elo7.com.br/assets/new/favicon-32.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="http://images.elo7.com.br/assets/new/favicon-96.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="http://images.elo7.com.br/assets/new/favicon-16.png">
-	<script src="//ajax.googleapis.com/ajax/libs/webfont/1.4.7/webfont.js"></script>
-	<script>
-	var lp = lp || {};
-	lp.webFontLoad = {
-	  google: {
-	    families: ['Open Sans:400,400italic,700,700italic']
-	  },
-	  active: function() {
-	   if(lp && lp.text && typeof lp.text.fixTextHeights === "function")  {
-	     lp.text.fixTextHeights();
-	   }
-	  }
-	};
-	window.WebFont.load(lp.webFontLoad);
-	</script>
+	<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=en" />
+
 </head>
 <body>
-	<header>
+	<header class="container">
 		<div id="logoHeader"><img src="img/assets/logo.png" alt="Logo Elo 7"></div>
 		<ul>
 			<li class="link">Engenharia</li>
 			<li class="link">Eventos</li>
 		</ul>
 	</header>
-	<div class="box" id="start">
+	<div class="container" id="start">
 		<img src="img/assets/titulo.png" alt="Somos um Time Fora de Série">
-		<div class="inputSelect">Escolha um departamento</div>
+		<div class="inputSelect">Escolha um departamento <span></span></div>
 	</div>
-	<div class="box white" id="culture">
+	<div class="container white" id="culture">
 		<ul>
 			<li>
 				<h2 class="title">NOSSA CULTURA</h2>
@@ -59,7 +47,7 @@
 			</li>
 		</ul>
 	</div>
-	<div class="box gray" id="areas">
+	<div class="container gray" id="areas">
 		<h1 class="title">CONHEÇA NOSSAS ÁREAS</h1>
 		<ul>
 			<li>
@@ -96,17 +84,17 @@
 			</li>
 		</ul>
 	</div>
-	<div class="box grena" id="social">
+	<div class="container grena" id="social">
 
 		<h1 class="title">CONECTE-SE COM A GENTE</h1>
 		<ul>
-			<li class="facebook"></li>
-			<li class="instagram"></li>
-			<li class="google"></li>
-			<li class="pinterest"></li>
-			<li class="twitter"></li>
-			<li class="linkedin"></li>
-			<li class="blog"></li>
+			<li class="icon facebook"></li>
+			<li class="icon instagram"></li>
+			<li class="icon googleplus"></li>
+			<li class="icon pinterest"></li>
+			<li class="icon twitter"></li>
+			<li class="icon linkedin"></li>
+			<li class="icon blog"></li>
 		</ul>
 </body>
 </html>

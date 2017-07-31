@@ -1,5 +1,51 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	    background: orange;
+	        color: dimgray;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 body{
 	font-family: 'museo_sans';
+	text-align: center;
 }
 .lp-pom-text p {
     font-family: 'museo_sans', sans-serif;
@@ -7,3 +53,156 @@ body{
     font-size: 16px;
     color: #7D7873;
 }
+
+div#logoHeader {
+    float: left;
+}
+header ul {
+    float: right;
+    display: inline-flex;
+}
+header{
+	height: 55px;
+	background: white;
+}
+header #logoHeader img {
+    height: 30px;
+    margin: 10px 20px;
+}
+header li.link {
+    color: #279b9a;
+    font-size: 20px;
+    margin-right: 20px;
+    margin-top: 18px;
+}
+
+.blackColor{
+	color:#4e4e4e;
+}
+.container#start{
+	background: url(../img/assets/heroshot.png) no-repeat gray center;
+	height: 500px;
+	background-size: 100% 100%;
+
+}
+.container#start img {
+    margin-top: 100px;
+}
+
+
+.container#start  .inputSelect {
+    font-size: 21px;
+    padding: 20px;
+    background: white;
+    position: absolute;
+    border-radius: 5px;
+    padding-right: 80px;
+    color: #4e4e4e;
+    text-align: center;
+    left: 50%;
+    margin-left: -189px;
+    margin-top: 60px;
+}
+
+.container#start  .inputSelect:after {
+    content: "";
+    width: 20px;
+    height: 12px;
+    background-image: url(../img/assets/arrow.png);
+    display: inline-block;
+    margin-left: 160px;
+    margin-top: -17px;
+    position: absolute;
+}
+
+.container#culture {
+   background: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.container#culture h2.title {
+    font-size: 35px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: 'Open Sans';
+}
+.container#culture h3.description {
+    font-size: 24px;
+}
+
+.container#culture img{
+	padding-top: 60px;
+}
+
+.container#culture span {
+    font-family: 'Open Sans';
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.container#areas{
+	padding-top: 50px;
+	padding-bottom:50px;
+	background-color: #f2f2f2;
+}
+.container#areas h1{
+	    font-size: 25px;
+    font-weight: bold;
+}
+.container#areas ul{
+	background-color: #f2f2f2;
+    display: inline-block;
+    margin-top: 40px;
+}
+.container#areas li {
+    width: calc(50% - 16px);
+    background: white;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+    margin: 0px 0px 10px 10px;
+    float: left;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+    height: 80px;
+}
+.container#areas li h2{
+	margin-top: 6px;
+    font-size: 20px;
+}
+
+.container#social {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: gray;
+}
+
+.container#social h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+}
+
+.container#social li {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin: 10px;
+}
+.icon{
+	background-image: url(../img/assets/facebook.png);
+	    background-size: 48px;
+    background-repeat: no-repeat;
+}
+
+.facebook{	background-image: url(../img/assets/facebook.png);}
+.instagram{	background-image: url(../img/assets/instagram.png);}
+.googleplus{background-image: url(../img/assets/googleplus.png);}
+.pinterest{	background-image: url(../img/assets/pinterest-light.png);}
+.twitter{	background-image: url(../img/assets/twitter.png);}
+.linkedin{	background-image: url(../img/assets/linkedin.png);}
+.blog{	background-image: url(../img/assets/blog.png);}
+
