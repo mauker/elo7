@@ -2,6 +2,7 @@ package com.example.mauricioolimpio.myelo7test;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.webkit.WebView;
 
 public class MainActivity extends AppCompatActivity {
@@ -12,6 +13,16 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         WebView myWebView = (WebView) findViewById(R.id.webview);
-        myWebView.loadUrl("http://localhost:8080/carreiras.html");
+        myWebView.loadUrl("http://10.10.7.28:8080/carreiras.html");
+
+        getWindow().getDecorView().setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE
+                        | View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+                        | View.SYSTEM_UI_FLAG_FULLSCREEN
+                        | View.SYSTEM_UI_FLAG_IMMERSIVE);
     }
+
+
 }
