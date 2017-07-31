@@ -1,0 +1,7 @@
+@font-face {
+  font-family: 'museo_sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Museo Sans'), local('Museu-Sans'), url(./museo-sans-300-webfont.woff2) format('woff2');
+  
+}
