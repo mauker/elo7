@@ -11,6 +11,6 @@ app.use(express.static(__dirname + '/public'));
 
 
 //vamos start o servidor
-var listener = app.listen(8080,function() {
+var listener = app.listen(3000,function() {
 	console.log("Server Started at " + listener.address().port);
 })

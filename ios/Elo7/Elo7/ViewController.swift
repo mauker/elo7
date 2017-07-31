@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        if let url = URL(string: "http://localhost:8080/carreiras.html"){
+        if let url = URL(string: "http://138.197.27.102:3000/carreiras.html"){
             webview.loadRequest(URLRequest(url:url));
             
         }
