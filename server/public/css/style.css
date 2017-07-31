@@ -206,3 +206,83 @@ header li.link {
 .linkedin{	background-image: url(../img/assets/linkedin.png);}
 .blog{	background-image: url(../img/assets/blog.png);}
 
+
+@media screen and (max-width: 400px) {
+    body {
+        background:#03A9F4;
+    }
+
+    .container#start img {
+        width: 50%;
+    }
+    header li.link {
+        color: #279b9a;
+        font-size: 15px;
+    }
+    header ul {
+        /*width: 220px;*/
+        
+    }
+
+    .container#start .inputSelect {
+        font-size: 10px;
+        padding: 10px;
+        background: white;
+        position: absolute;
+        border-radius: 5px;
+        padding-right: 30px;
+        color: #4e4e4e;
+        text-align: center;
+        left: 50%;
+        margin-left: -80px;
+        margin-top: 60px;
+    }
+
+    .container#start .inputSelect:after {
+        margin-left: 68px;
+        margin-top: -8px;
+        position: absolute;
+        background-size: 10px;
+        background-repeat: no-repeat;
+    }
+
+    .container#start {
+        height: 350px;
+    }
+
+
+    .container#culture h2.title {
+        font-size: 25px;
+    }
+    .container#culture h3.description {
+        font-size: 14px;
+    }
+    .container#culture img {
+        width: 60%;
+    }
+    .container#areas h1 {
+        font-size: 15px;
+     
+    }
+    .container#areas li h2 {
+        font-size: 14px;
+    }
+    .container#social h1 {
+        font-size: 15px;
+    }
+    .container#social li {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon{
+        background-size: 28px;
+    }
+    .container#social li {
+        margin: 2px;
+    }
+    .container#social h1 {
+        padding-bottom: 15px;
+    }
+}
+
