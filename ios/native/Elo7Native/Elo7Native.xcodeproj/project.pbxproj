@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B3985341F4752DC007A370F /* HeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B3985331F4752DC007A370F /* HeaderTableViewCell.swift */; };
+		3B39853B1F476114007A370F /* CultureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B39853A1F476114007A370F /* CultureTableViewCell.swift */; };
+		3B647EDA1F467E6E00184C6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B647ED91F467E6E00184C6B /* AppDelegate.swift */; };
+		3B647EDC1F467E6E00184C6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B647EDB1F467E6E00184C6B /* ViewController.swift */; };
+		3B647EDF1F467E6E00184C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B647EDD1F467E6E00184C6B /* Main.storyboard */; };
+		3B647EE11F467E6E00184C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B647EE01F467E6E00184C6B /* Assets.xcassets */; };
+		3B647EE41F467E6E00184C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B647EE21F467E6E00184C6B /* LaunchScreen.storyboard */; };
+		3B647EED1F46851900184C6B /* CarrearModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B647EEC1F46851900184C6B /* CarrearModel.swift */; };
+		3BEA87AD1F4779880031C1BB /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A11F4779880031C1BB /* Roboto-Black.ttf */; };
+		3BEA87AE1F4779880031C1BB /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A21F4779880031C1BB /* Roboto-BlackItalic.ttf */; };
+		3BEA87AF1F4779880031C1BB /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A31F4779880031C1BB /* Roboto-Bold.ttf */; };
+		3BEA87B01F4779880031C1BB /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A41F4779880031C1BB /* Roboto-BoldItalic.ttf */; };
+		3BEA87B11F4779880031C1BB /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A51F4779880031C1BB /* Roboto-Italic.ttf */; };
+		3BEA87B21F4779880031C1BB /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A61F4779880031C1BB /* Roboto-Light.ttf */; };
+		3BEA87B31F4779880031C1BB /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A71F4779880031C1BB /* Roboto-LightItalic.ttf */; };
+		3BEA87B41F4779880031C1BB /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A81F4779880031C1BB /* Roboto-Medium.ttf */; };
+		3BEA87B51F4779880031C1BB /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87A91F4779880031C1BB /* Roboto-MediumItalic.ttf */; };
+		3BEA87B61F4779880031C1BB /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87AA1F4779880031C1BB /* Roboto-Regular.ttf */; };
+		3BEA87B71F4779880031C1BB /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87AB1F4779880031C1BB /* Roboto-Thin.ttf */; };
+		3BEA87B81F4779880031C1BB /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3BEA87AC1F4779880031C1BB /* Roboto-ThinItalic.ttf */; };
+		89AA39AACE6BBEE0A2B33262 /* Pods_Elo7Native.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BC5B824647DC7D0F3DC85AD /* Pods_Elo7Native.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02B545E5466BF61FD0BBC821 /* Pods-Elo7Native.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elo7Native.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elo7Native/Pods-Elo7Native.release.xcconfig"; sourceTree = "<group>"; };
+		3B3985331F4752DC007A370F /* HeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeaderTableViewCell.swift; path = screens/main/cells/HeaderTableViewCell.swift; sourceTree = "<group>"; };
+		3B39853A1F476114007A370F /* CultureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CultureTableViewCell.swift; path = screens/main/cells/CultureTableViewCell.swift; sourceTree = "<group>"; };
+		3B647ED61F467E6E00184C6B /* Elo7Native.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elo7Native.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B647ED91F467E6E00184C6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B647EDB1F467E6E00184C6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B647EDE1F467E6E00184C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B647EE01F467E6E00184C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B647EE31F467E6E00184C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B647EE51F467E6E00184C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B647EEC1F46851900184C6B /* CarrearModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarrearModel.swift; path = domain/CarrearModel.swift; sourceTree = "<group>"; };
+		3BC5B824647DC7D0F3DC85AD /* Pods_Elo7Native.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elo7Native.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BEA87A11F4779880031C1BB /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Black.ttf"; path = "Elo7Native/fonts/Roboto-Black.ttf"; sourceTree = "<group>"; };
+		3BEA87A21F4779880031C1BB /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BlackItalic.ttf"; path = "Elo7Native/fonts/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		3BEA87A31F4779880031C1BB /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "Elo7Native/fonts/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		3BEA87A41F4779880031C1BB /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-BoldItalic.ttf"; path = "Elo7Native/fonts/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		3BEA87A51F4779880031C1BB /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "Elo7Native/fonts/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		3BEA87A61F4779880031C1BB /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Light.ttf"; path = "Elo7Native/fonts/Roboto-Light.ttf"; sourceTree = "<group>"; };
+		3BEA87A71F4779880031C1BB /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-LightItalic.ttf"; path = "Elo7Native/fonts/Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		3BEA87A81F4779880031C1BB /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "Elo7Native/fonts/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		3BEA87A91F4779880031C1BB /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-MediumItalic.ttf"; path = "Elo7Native/fonts/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		3BEA87AA1F4779880031C1BB /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "Elo7Native/fonts/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		3BEA87AB1F4779880031C1BB /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Thin.ttf"; path = "Elo7Native/fonts/Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		3BEA87AC1F4779880031C1BB /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-ThinItalic.ttf"; path = "Elo7Native/fonts/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		B83983059E05C1352D00DB81 /* Pods-Elo7Native.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elo7Native.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elo7Native/Pods-Elo7Native.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B647ED31F467E6E00184C6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AA39AACE6BBEE0A2B33262 /* Pods_Elo7Native.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20B36BB643C31E41EA0980B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BC5B824647DC7D0F3DC85AD /* Pods_Elo7Native.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B39852B1F4751F8007A370F /* screen */ = {
+			isa = PBXGroup;
+			children = (
+				3B3985311F47529F007A370F /* main */,
+			);
+			name = screen;
+			sourceTree = "<group>";
+		};
+		3B39852C1F47520C007A370F /* app */ = {
+			isa = PBXGroup;
+			children = (
+				3B3985351F475E66007A370F /* resource */,
+				3B39852B1F4751F8007A370F /* screen */,
+				3B647EEB1F46846A00184C6B /* domain */,
+				3B3985301F475275007A370F /* launch */,
+				3B39852F1F475246007A370F /* config */,
+				3B39852E1F47523D007A370F /* assets */,
+			);
+			name = app;
+			sourceTree = "<group>";
+		};
+		3B39852D1F475237007A370F /* delegate */ = {
+			isa = PBXGroup;
+			children = (
+				3B647ED91F467E6E00184C6B /* AppDelegate.swift */,
+			);
+			name = delegate;
+			sourceTree = "<group>";
+		};
+		3B39852E1F47523D007A370F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				3B647EE01F467E6E00184C6B /* Assets.xcassets */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		3B39852F1F475246007A370F /* config */ = {
+			isa = PBXGroup;
+			children = (
+				3B39852D1F475237007A370F /* delegate */,
+				3B647EE51F467E6E00184C6B /* Info.plist */,
+			);
+			name = config;
+			sourceTree = "<group>";
+		};
+		3B3985301F475275007A370F /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				3B647EE21F467E6E00184C6B /* LaunchScreen.storyboard */,
+			);
+			name = launch;
+			sourceTree = "<group>";
+		};
+		3B3985311F47529F007A370F /* main */ = {
+			isa = PBXGroup;
+			children = (
+				3B3985321F4752AA007A370F /* cells */,
+				3B647EDD1F467E6E00184C6B /* Main.storyboard */,
+				3B647EDB1F467E6E00184C6B /* ViewController.swift */,
+			);
+			name = main;
+			sourceTree = "<group>";
+		};
+		3B3985321F4752AA007A370F /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				3B3985331F4752DC007A370F /* HeaderTableViewCell.swift */,
+				3B39853A1F476114007A370F /* CultureTableViewCell.swift */,
+			);
+			name = cells;
+			sourceTree = "<group>";
+		};
+		3B3985351F475E66007A370F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA87B91F4779990031C1BB /* fonts */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		3B647ECD1F467E6E00184C6B = {
+			isa = PBXGroup;
+			children = (
+				3B647ED81F467E6E00184C6B /* Elo7Native */,
+				3B647ED71F467E6E00184C6B /* Products */,
+				8AA854C37AE4385901ABA749 /* Pods */,
+				20B36BB643C31E41EA0980B0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B647ED71F467E6E00184C6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B647ED61F467E6E00184C6B /* Elo7Native.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B647ED81F467E6E00184C6B /* Elo7Native */ = {
+			isa = PBXGroup;
+			children = (
+				3B39852C1F47520C007A370F /* app */,
+			);
+			path = Elo7Native;
+			sourceTree = "<group>";
+		};
+		3B647EEB1F46846A00184C6B /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				3B647EEC1F46851900184C6B /* CarrearModel.swift */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		3BEA87B91F4779990031C1BB /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3BEA87A11F4779880031C1BB /* Roboto-Black.ttf */,
+				3BEA87A21F4779880031C1BB /* Roboto-BlackItalic.ttf */,
+				3BEA87A31F4779880031C1BB /* Roboto-Bold.ttf */,
+				3BEA87A41F4779880031C1BB /* Roboto-BoldItalic.ttf */,
+				3BEA87A51F4779880031C1BB /* Roboto-Italic.ttf */,
+				3BEA87A61F4779880031C1BB /* Roboto-Light.ttf */,
+				3BEA87A71F4779880031C1BB /* Roboto-LightItalic.ttf */,
+				3BEA87A81F4779880031C1BB /* Roboto-Medium.ttf */,
+				3BEA87A91F4779880031C1BB /* Roboto-MediumItalic.ttf */,
+				3BEA87AA1F4779880031C1BB /* Roboto-Regular.ttf */,
+				3BEA87AB1F4779880031C1BB /* Roboto-Thin.ttf */,
+				3BEA87AC1F4779880031C1BB /* Roboto-ThinItalic.ttf */,
+			);
+			name = fonts;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		8AA854C37AE4385901ABA749 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B83983059E05C1352D00DB81 /* Pods-Elo7Native.debug.xcconfig */,
+				02B545E5466BF61FD0BBC821 /* Pods-Elo7Native.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B647ED51F467E6E00184C6B /* Elo7Native */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B647EE81F467E6E00184C6B /* Build configuration list for PBXNativeTarget "Elo7Native" */;
+			buildPhases = (
+				752525DFCBFA173B3B26BA37 /* [CP] Check Pods Manifest.lock */,
+				3B647ED21F467E6E00184C6B /* Sources */,
+				3B647ED31F467E6E00184C6B /* Frameworks */,
+				3B647ED41F467E6E00184C6B /* Resources */,
+				C524FBA9BAAB42499664C88C /* [CP] Embed Pods Frameworks */,
+				2578CCA2AAF6F2F8BAADFE70 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elo7Native;
+			productName = Elo7Native;
+			productReference = 3B647ED61F467E6E00184C6B /* Elo7Native.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B647ECE1F467E6E00184C6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Mauricio  Olimpio";
+				TargetAttributes = {
+					3B647ED51F467E6E00184C6B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z755H6BN8W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3B647ED11F467E6E00184C6B /* Build configuration list for PBXProject "Elo7Native" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B647ECD1F467E6E00184C6B;
+			productRefGroup = 3B647ED71F467E6E00184C6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B647ED51F467E6E00184C6B /* Elo7Native */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B647ED41F467E6E00184C6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BEA87AD1F4779880031C1BB /* Roboto-Black.ttf in Resources */,
+				3BEA87AE1F4779880031C1BB /* Roboto-BlackItalic.ttf in Resources */,
+				3BEA87AF1F4779880031C1BB /* Roboto-Bold.ttf in Resources */,
+				3BEA87B01F4779880031C1BB /* Roboto-BoldItalic.ttf in Resources */,
+				3BEA87B11F4779880031C1BB /* Roboto-Italic.ttf in Resources */,
+				3BEA87B21F4779880031C1BB /* Roboto-Light.ttf in Resources */,
+				3BEA87B31F4779880031C1BB /* Roboto-LightItalic.ttf in Resources */,
+				3BEA87B41F4779880031C1BB /* Roboto-Medium.ttf in Resources */,
+				3BEA87B51F4779880031C1BB /* Roboto-MediumItalic.ttf in Resources */,
+				3BEA87B61F4779880031C1BB /* Roboto-Regular.ttf in Resources */,
+				3BEA87B71F4779880031C1BB /* Roboto-Thin.ttf in Resources */,
+				3BEA87B81F4779880031C1BB /* Roboto-ThinItalic.ttf in Resources */,
+				3B647EE41F467E6E00184C6B /* LaunchScreen.storyboard in Resources */,
+				3B647EE11F467E6E00184C6B /* Assets.xcassets in Resources */,
+				3B647EDF1F467E6E00184C6B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2578CCA2AAF6F2F8BAADFE70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elo7Native/Pods-Elo7Native-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		752525DFCBFA173B3B26BA37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elo7Native-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C524FBA9BAAB42499664C88C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Elo7Native/Pods-Elo7Native-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elo7Native/Pods-Elo7Native-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B647ED21F467E6E00184C6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B39853B1F476114007A370F /* CultureTableViewCell.swift in Sources */,
+				3B3985341F4752DC007A370F /* HeaderTableViewCell.swift in Sources */,
+				3B647EED1F46851900184C6B /* CarrearModel.swift in Sources */,
+				3B647EDC1F467E6E00184C6B /* ViewController.swift in Sources */,
+				3B647EDA1F467E6E00184C6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B647EDD1F467E6E00184C6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B647EDE1F467E6E00184C6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B647EE21F467E6E00184C6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B647EE31F467E6E00184C6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B647EE61F467E6E00184C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B647EE71F467E6E00184C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B647EE91F467E6E00184C6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B83983059E05C1352D00DB81 /* Pods-Elo7Native.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z755H6BN8W;
+				INFOPLIST_FILE = Elo7Native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauker.Elo7Native;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3B647EEA1F467E6E00184C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02B545E5466BF61FD0BBC821 /* Pods-Elo7Native.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z755H6BN8W;
+				INFOPLIST_FILE = Elo7Native/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mauker.Elo7Native;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B647ED11F467E6E00184C6B /* Build configuration list for PBXProject "Elo7Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B647EE61F467E6E00184C6B /* Debug */,
+				3B647EE71F467E6E00184C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B647EE81F467E6E00184C6B /* Build configuration list for PBXNativeTarget "Elo7Native" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B647EE91F467E6E00184C6B /* Debug */,
+				3B647EEA1F467E6E00184C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B647ECE1F467E6E00184C6B /* Project object */;
+}
